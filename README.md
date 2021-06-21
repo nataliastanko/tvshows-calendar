@@ -1,24 +1,20 @@
-# README
+# TV-shows calendar
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app lets users know when the next tv show episode is aired and on which provider
 
-Things you may want to cover:
+## Functionality
 
-* Ruby version
+* users can create lists
+* users can search for tv shows
+* users cab add tv-shows to the lists
+* users can display a calendar
+* users can display the air dates and the provider of the tv show in the calendar 
 
-* System dependencies
+# Requirements
 
-* Configuration
+* Rails 6.1.3.2
+* ruby 2.7.2
 
-* Database creation
+# Install
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    bundle install
