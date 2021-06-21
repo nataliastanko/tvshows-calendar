@@ -14,6 +14,9 @@ The app lets users know when the next tv show episode is aired and on which prov
 
 * Rails 6.1.3.2
 * ruby 2.7.2
+* sqlite3
+* node 
+* yarn
 
 # Install
 
