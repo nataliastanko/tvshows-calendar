@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Search phrase: <%= @query %></h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>View</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @search.each do |item| %>
+      <tr>
+        <td><%= item.name %></td>
+        <td><%= link_to 'View details', tvshow_url(item.id) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
