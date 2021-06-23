@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  # root 'welcome#index'
+  root to: 'home#index'
   resources :lists
 
   resources :tvshows, only: [:show, :create] do 

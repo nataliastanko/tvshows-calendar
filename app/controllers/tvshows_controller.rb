@@ -16,11 +16,11 @@ class TvshowsController < ApplicationController
   end
 
   def season
-    # show = Tmdb::Season.detail(1396, 1)
+    # show = Tmdb::Season.detail(id, 1)
   end
 
   def episode
-    # episode = Tmdb::Episode.detail(1396, 1, 1)
+    # episode = Tmdb::Episode.detail(id, 1, 1)
   end
 
   private

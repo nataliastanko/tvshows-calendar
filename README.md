@@ -25,5 +25,9 @@ The app lets users know when the next tv show episode is aired and on which prov
     rake db:migrate
     rake db:fixtures:load
 
+# Run
+
+    rails server     
+
 # Test
 
